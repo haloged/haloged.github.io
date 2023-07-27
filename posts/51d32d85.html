@@ -1,0 +1,230 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>版本号规范 | haloged的博客</title><meta name="author" content="haloged"><meta name="copyright" content="haloged"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="版本号a.b.c_d-ea: 主版本号 出现大体不兼容或修改的 或 出现大体兼容修改时 修改本数值。b: 子版本号 出现小规模兼容修改时 或 出现重大漏洞时 修改本数值。c: 阶段版本号 修复较小漏洞并且与旧功能兼容时 修改此数值。d: 版本区分号 具体看下方“版本区分号”说明。e: 实时提交次数。 版本区分号Alpha — 内部测试版Beta — 公开测试版Cardware — 属共享软件的一种">
+<meta property="og:type" content="article">
+<meta property="og:title" content="版本号规范">
+<meta property="og:url" content="https://haloged.eu.org/posts/51d32d85.html">
+<meta property="og:site_name" content="haloged的博客">
+<meta property="og:description" content="版本号a.b.c_d-ea: 主版本号 出现大体不兼容或修改的 或 出现大体兼容修改时 修改本数值。b: 子版本号 出现小规模兼容修改时 或 出现重大漏洞时 修改本数值。c: 阶段版本号 修复较小漏洞并且与旧功能兼容时 修改此数值。d: 版本区分号 具体看下方“版本区分号”说明。e: 实时提交次数。 版本区分号Alpha — 内部测试版Beta — 公开测试版Cardware — 属共享软件的一种">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://haloged.github.io/haloged1/12123.png">
+<meta property="article:published_time" content="2023-01-23T13:13:21.000Z">
+<meta property="article:modified_time" content="2023-07-27T12:24:28.440Z">
+<meta property="article:author" content="haloged">
+<meta property="article:tag" content="编程小知识">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://haloged.github.io/haloged1/12123.png"><link rel="shortcut icon" href="https://haloged.github.io/haloged1/12123.png"><link rel="canonical" href="https://haloged.eu.org/posts/51d32d85.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//hm.baidu.com"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://unpkg.com/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://unpkg.com/node-snackbar/dist/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://unpkg.com/@fancyapps/ui/dist/fancybox/fancybox.css" media="print" onload="this.media='all'"><script>var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?1e34e9a8b484e6cb6b7006589262863a";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":true,"top_n_per_article":1,"unescape":false,"languages":{"hits_empty":"找不到您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '天',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: {"chs_to_cht":"你已切换为繁体","cht_to_chs":"你已切换为简体","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#49b1f5","bgDark":"#1f1f1f","position":"top-right"},
+  source: {
+    justifiedGallery: {
+      js: 'https://unpkg.com/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://unpkg.com/flickr-justified-gallery/dist/fjGallery.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: true,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '版本号规范',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2023-07-27 12:24:28'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+    win.getCSS = (url,id = false) => new Promise((resolve, reject) => {
+      const link = document.createElement('link')
+      link.rel = 'stylesheet'
+      link.href = url
+      if (id) link.id = id
+      link.onerror = reject
+      link.onload = link.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        link.onload = link.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(link)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="haloged的博客" type="application/atom+xml">
+</head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="spinner-box"><div class="configure-border-1"><div class="configure-core"></div></div><div class="configure-border-2"><div class="configure-core"></div></div><div class="loading-word">加载中...</div></div></div><script>(()=>{
+  const $loadingBox = document.getElementById('loading-box')
+  const $body = document.body
+  const preloader = {
+    endLoading: () => {
+      $body.style.overflow = ''
+      $loadingBox.classList.add('loaded')
+    },
+    initLoading: () => {
+      $body.style.overflow = 'hidden'
+      $loadingBox.classList.remove('loaded')
+    }
+  }
+
+  preloader.initLoading()
+  window.addEventListener('load',() => { preloader.endLoading() })
+
+  if (false) {
+    document.addEventListener('pjax:send', () => { preloader.initLoading() })
+    document.addEventListener('pjax:complete', () => { preloader.endLoading() })
+  }
+})()</script><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://haloged.github.io/haloged1/12123.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">25</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">16</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">3</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/talks/"><i class="fa-fw fas fa-commenting"></i><span> 说说</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div><div class="menus_item"><a class="site-page group hide" href="javascript:void(0);"><i class="fa-fw fas fa-circle"></i><span> 更多</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/comment/"><span> 评论说明</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="https://monitor.haloged.eu.org"><span> 站点监控</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="https://haloged-studio.eu.org"><span> Haloged Studio</span></a></li></ul></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://bing.joker.cc/api/')"><nav id="nav"><span id="blog-info"><a href="/" title="haloged的博客"><span class="site-name">haloged的博客</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/talks/"><i class="fa-fw fas fa-commenting"></i><span> 说说</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div><div class="menus_item"><a class="site-page group hide" href="javascript:void(0);"><i class="fa-fw fas fa-circle"></i><span> 更多</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/comment/"><span> 评论说明</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="https://monitor.haloged.eu.org"><span> 站点监控</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="https://haloged-studio.eu.org"><span> Haloged Studio</span></a></li></ul></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">版本号规范</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-01-23T13:13:21.000Z" title="发表于 2023-01-23 13:13:21">2023-01-23</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-07-27T12:24:28.440Z" title="更新于 2023-07-27 12:24:28">2023-07-27</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E7%BC%96%E7%A8%8B/">编程</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">2.8k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>8分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="版本号规范"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h2 id="版本号"><a href="#版本号" class="headerlink" title="版本号"></a>版本号</h2><p><code>a.b.c_d-e</code><br /><code>a</code>: 主版本号 出现大体不兼容或修改的 或 出现大体兼容修改时 修改本数值。<br /><code>b</code>: 子版本号 出现小规模兼容修改时 或 出现重大漏洞时 修改本数值。<br /><code>c</code>: 阶段版本号 修复较小漏洞并且与旧功能兼容时 修改此数值。<br /><code>d</code>: 版本区分号 具体看下方“版本区分号”说明。<br /><code>e</code>: 实时提交次数。</p>
+<h2 id="版本区分号"><a href="#版本区分号" class="headerlink" title="版本区分号"></a>版本区分号</h2><p>Alpha — 内部测试版<br />Beta — 公开测试版<br />Cardware — 属共享软件的一种，只要给作者回复一封电邮或明信片即可。目前这种形式已不多见。<br />CHT — 繁体中文版<br />CN/SPC — 简体中文版<br />EN — 英文版<br />Corporation &amp; Enterprise — 企业版<br />Deluxe — 豪华版<br />Demo — 演示版<br />Dev — 开发专用版，程序员版本<br />Enhance — 增强版&amp;加强版 （属于正式版）<br />Express&amp;Special —特别版<br />Final — 最终版<br />Free — 免费版<br />Full version — 完全版 （属于正式版）<br />Green — 绿色版&amp;；破解版<br />Mini — 迷你版&amp;；精简版，只有最基本的功能，占用资源较少<br />Multi-language — 多语言版<br />Plus — 属增强版，不过大部分是在程序界面及功能上增强。<br />Preview —预览版<br />Professional — 专业版<br />Regged/Registered — 已注册版<br />Release — 发行版<br />Retail/RTM — 零售版<br />Shareware — 共享版<br />Stable — 稳定版<br />Standard — 标准版<br />Ultimate — 旗舰版<br />Upgrade — 升级版</p>
+<h2 id="分类"><a href="#分类" class="headerlink" title="分类"></a>分类</h2><h3 id="非正式版"><a href="#非正式版" class="headerlink" title="非正式版"></a>非正式版</h3><p>α（alpha）版<br />此版本表示该软件仅仅是一个初步完成品，通常只在软件开发者内部交流，也有很少一部分发布给专业测试人员。也有少部分软件公司会公开alpha版的软件<br />一般而言，该版本软件的 bug 较多，普通用户最好不要安装。<br />β（Beta）版<br />该版本相对于α版已有了很大的改进，消除了严重的错误，但还是存在着一些缺陷，需要经过大规模的发布测试来进一步消除。这一版本通常由软件公司免费发布，用户可从相关的站点下载。通过一些专业爱好者的测试，将结果反馈给开发者，开发者们再进行有针对性的修改。该版本也不适合一般用户安装。<br />γ（gamma）版<br />该版本已经相当成熟了，与即将发行的正式版相差无几，如果用户实在等不及了，尽可以装上一试。<br />Trial（试用版）<br />试用版软件在最近的几年里颇为流行，主要是得益于互联网的迅速发展。该版本软件通常都有时间限制，过期之后用户如果希望继续使用，一般得交纳一定的费用进行注册或购买。有些试用版软件还在功能上做了一定的限制。<br />Unregistered（未注册版）<br />未注册版与试用版极其类似，只是未注册版通常没有时间限制，在功能上相对于正式版做了一定的限制，例如绝大多数网络电话软件的注册版和未注册版，两者之间在通话质量上有很大差距。还有些虽然在使用上与正式版毫无二致，但是动不动就会弹出一个恼人的消息框来提醒你注册，如看图软件acdsee 、智能陈桥汉字输入软件等。<br />Demo版<br />也称为演示版，在非正式版软件中，该版本的知名度最大。demo 版仅仅集成了正式版中的几个功能，颇有点像 unregistered。不同的是， demo 版一般不能通过升级或注册的方法变为正式版。<br />以上是软件正式版本推出之前的几个版本，α、β、γ可以称为测试版，大凡成熟软件总会有多个测试版，如 windows 98 的β版，前前后后将近有 10 个。这么多的测试版一方面为了最终产品尽可能地满足用户的需要，另一方面也尽量减少了软件中的 bug。而 trial 、 unregistered 、 demo 有时统称为演示版，这一类版本的广告色彩较浓，颇有点先尝后买的味道，对于普通用户而言自然是可以免费尝鲜了。</p>
+<h3 id="正式版"><a href="#正式版" class="headerlink" title="正式版"></a>正式版</h3><p>不同类型的软件的正式版本通常也有区别。<br />Release<br />该版本意味“最终释放版”，在出了一系列的测试版之后，终归会有一个正式版本，对于用户而言，安装该版本的软件绝对不会错。该版本有时也称为标准版。一般情况下， release 不会以单词形式出现在软件封面上，取而代之的是符号 (r) ，如 windows nt(r) 4.0 、 ms-dos(r) 6.22 等。<br />Registered<br />很显然，该版本是与 unregistered 相对的注册版。注册版、 release 和下面所讲的 standard 版一样，都是软件的正式版本，只是注册版软件的前身有很大一部分是从网上下载的。<br />Standard<br />这是最常见的标准版，不论是什么软件，标准版一定存在。标准版中包含了该软件的基本组件及一些常用功能，占用资源较高级版低，可以满足一般用户的需求。对于收费软件来说，其价格相对高一级版本而言还是“平易近人”的。<br />Deluxe<br />顾名思义即为“豪华版”。豪华版通常是相对于标准版而言的，主要区别是多了几项功能，价格当然会高出一大块，不推荐一般用户购买。此版本通常是为那些追求“完美”的专业用户所准备的。<br />Reference<br />该版本型号常见于百科全书中，比较有名的是微软的 encarta 系列。reference 是最高级别，其包含的主题、图像、影片剪辑等相对于 standard 和 deluxe 版均有大幅增加，容量由一张光盘猛增至三张光盘，并且加入了很强的交互功能，当然价格也不菲。可以这么说，这一版本的百科全书才能算是真正的百科全书，也是发烧友们收藏的首选。<br />Professional（专业版）<br />专业版是针对某些特定的开发工具软件而言的。专业版中有许多内容是标准版中所没有的，这些内容对于一个专业的软件开发人员来说是极为重要的。如微软的 visual foxpro 标准版并不具备编译成可执行文件的功能，这对于一个完整的开发项目而言显然是无法忍受的，若客户机上没有 foxpro 将不能使用。如果用专业版就没有这个问题了。<br />Enterprise（企业版）<br />企业版是开发类软件中的极品（相当于百科全书中的 reference 版）。拥有一套这种版本的软件可以毫无障碍地开发任何级别的应用软件。如著名的 visual c++ 的企业版相对于专业版来说增加了几个附加的特性，如 sql 调试、扩展的存储过程向导、支持 as/400 对 ole db 的访问等。而这一版本的价格也是普通用户无法接受的。如微软的 visual studios 6.0 enterprise 中文版的价格为 23000 元。</p>
+<h3 id="专有版本"><a href="#专有版本" class="headerlink" title="专有版本"></a>专有版本</h3><p>除了以上介绍的一些版本外，还有一些专有版本名称。<br />Update（升级版）<br />升级版的软件是不能独立使用的，该版本的软件在安装过程中会搜索原有的正式版，如果不存在，则拒绝执行下一步。如 microsoft office 2000 升级版、 windows 9x 升级版等等。<br />OEM版<br />OEM 版通常是捆绑在硬件中而不单独销售的版本。将自己的产品交给别的公司去卖，保留自己的著作权，双方互惠互利，一举两得。<br />单机（网络）版<br />网络版在功能、结构上远比单机版复杂，如果留心一下软件的报价，你就会发现某些软件单机版和网络版的价格相差非常大，有些网络版甚至多一个客户端口就要加不少钱。<br />普及版<br />该版本有时也会被称为共享版，其特点是价格便宜（有些甚至完全免费）、功能单一、针对性强（当然也有占领市场、打击盗版等因素）。与试用版不同的是，该版本的软件一般不会有时间上的限制。当然，如果用户想升级，最好还是去购买正式版。</p>
+<h3 id="其他版本"><a href="#其他版本" class="headerlink" title="其他版本"></a>其他版本</h3><p>破解版又称绿色版，严格来说这不属于一种授权版本，因为它是针对商业版、试用版、共享版这类有使用限制的软件进行二次开发之后形成的特殊版本，也就是说，使用者可以在没有任何经济付出的条件下无限制的使用该软件的全部功能。一般通过改写原软件、制作算号器、拦截注册信息等等方式实现。<br />以上是一些常见软件版本的简要介绍，随着软件市场行为的变化，现在也出现了一些新的版本命名方式，比如windows xp中的xp是取自于experience中的第二、第三个字母。希望以上内容能够对大家的购买、使用和下载软件有所帮助。<br />基于商业上考虑，很多的软件都不是非常严谨的遵循这个规则的。最有名的就是微软了。例如他的 NT 系列版本。大家比较熟悉的是从 NT 4.0 开始的。99 年推出了 windows 2000 ， 2001 年推出了 windows xp ， 2003 年推出了 windows 2003 ，乍一看版本区别蛮大的，但是看他们的内部版本号就会发现，变化其实并不大，只是界面变化的大了而已。这是软件公司经常干的事情。Windows 2000 的版本号是 NT 5.0 ， windows xp 的版本号是 NT 5.1 ， windows 2003 的版本号是 NT 5.2 ，Windows Vista和现在的Windows7 的版本号是 NT 6.0和NT 6.1，才是跨越化的版本。这样做的话就可以持续的赚广大客户的钱。毕竟人的眼睛看得东西是最直观的，所以给人感觉也是变化最大的。</p>
+<h4 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h4><blockquote>
+<p><a target="_blank" rel="noopener" href="https://waddle.coco-central.cn/docs/#/dev/4-%E7%89%88%E6%9C%AC%E5%8F%B7%E8%A7%84%E8%8C%83">https://waddle.coco-central.cn/docs/#/dev/4-%E7%89%88%E6%9C%AC%E5%8F%B7%E8%A7%84%E8%8C%83</a><br><a target="_blank" rel="noopener" href="https://baike.baidu.com/item/%E7%89%88%E6%9C%AC%E5%8F%B7/7674145?fr=aladdin">https://baike.baidu.com/item/%E7%89%88%E6%9C%AC%E5%8F%B7/7674145?fr=aladdin</a><br><a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_35246620/article/details/78443169">https://blog.csdn.net/qq_35246620/article/details/78443169</a><br><a target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_38984879/article/details/124819491">https://blog.csdn.net/weixin_38984879/article/details/124819491</a><br><a target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_41682466/article/details/98481445">https://blog.csdn.net/weixin_41682466/article/details/98481445</a><br><a target="_blank" rel="noopener" href="https://blog.csdn.net/liujia216/article/details/53102908">https://blog.csdn.net/liujia216/article/details/53102908</a><br><a target="_blank" rel="noopener" href="https://blog.csdn.net/qiphon3650/article/details/125421934">https://blog.csdn.net/qiphon3650/article/details/125421934</a><br><a target="_blank" rel="noopener" href="https://download.csdn.net/download/bbkxw001/12003779">https://download.csdn.net/download/bbkxw001/12003779</a><br><a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s?__biz=MzI3MDAxODk0Ng==&amp;mid=2650015847&amp;idx=1&amp;sn=22cbdc5f33b1b0fa10240fe7bea88bd4&amp;mpshare=1&amp;scene=23&amp;srcid=0725qNBZrEO9h8NP3svRmdGp#rd">https://mp.weixin.qq.com/s?__biz=MzI3MDAxODk0Ng</a><br><a target="_blank" rel="noopener" href="https://www.jianshu.com/p/c673b8c75a81">https://www.jianshu.com/p/c673b8c75a81</a><br><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/508354840">https://zhuanlan.zhihu.com/p/508354840</a><br><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/492569838">https://zhuanlan.zhihu.com/p/492569838</a><br><a target="_blank" rel="noopener" href="https://cloud.tencent.com/developer/article/2017396">https://cloud.tencent.com/developer/article/2017396</a><br><a target="_blank" rel="noopener" href="https://developer.aliyun.com/article/11531">https://developer.aliyun.com/article/11531</a><br><a target="_blank" rel="noopener" href="https://developer.android.google.cn/jetpack/androidx/versions?hl=zh-cn">https://developer.android.google.cn/jetpack/androidx/versions?hl=zh-cn</a><br><a target="_blank" rel="noopener" href="https://juejin.cn/post/7073902470585384990">https://juejin.cn/post/7073902470585384990</a><br><a target="_blank" rel="noopener" href="https://www.woshipm.com/pmd/4053949.html">https://www.woshipm.com/pmd/4053949.html</a><br><a target="_blank" rel="noopener" href="https://www.21ic.com/article/891440.html">https://www.21ic.com/article/891440.html</a></p>
+</blockquote>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="https://haloged.eu.org">haloged</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://haloged.eu.org/posts/51d32d85.html">https://haloged.eu.org/posts/51d32d85.html</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://haloged.eu.org" target="_blank">haloged的博客</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E7%BC%96%E7%A8%8B%E5%B0%8F%E7%9F%A5%E8%AF%86/">编程小知识</a></div><div class="post_share"><div class="social-share" data-image="https://haloged.github.io/haloged1/12123.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://unpkg.com/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://unpkg.com/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/posts/6161a01b.html" title="CoCo安全卫士"><div class="cover" style="background: var(--default-bg-color)"></div><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">CoCo安全卫士</div></div></a></div><div class="next-post pull-right"><a href="/posts/36af3259.html" title="学生信息管理系统"><div class="cover" style="background: var(--default-bg-color)"></div><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">学生信息管理系统</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><div><a href="/posts/f190a193.html" title="提交信息规范"><div class="cover" style="background: var(--default-bg-color)"></div><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2023-01-23</div><div class="title">提交信息规范</div></div></a></div></div></div><hr class="custom-hr"/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div id="waline-wrap"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://haloged.github.io/haloged1/12123.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">haloged</div><div class="author-info__description">逆风而行，向阳而生。</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">25</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">16</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">3</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://space.bilibili.com/518055250"><i class="fab fa-bilibili"></i><span>关注我</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/haloged" target="_blank" title="Github"><i class="fab fa-github" style="color: #24292e;"></i></a><a class="social-icon" href="mailto:aokhfj@aokhfj@outlook.com" target="_blank" title="Email"><i class="fas fa-envelope" style="color: #4a7dbe;"></i></a><a class="social-icon" href="https://haloged.eu.org/atom.xml" target="_blank" title="RSS"><i class="fas fa-rss" style="color: #1E3050;"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">换了新主题和评论系统~</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%89%88%E6%9C%AC%E5%8F%B7"><span class="toc-number">1.</span> <span class="toc-text">版本号</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%89%88%E6%9C%AC%E5%8C%BA%E5%88%86%E5%8F%B7"><span class="toc-number">2.</span> <span class="toc-text">版本区分号</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%86%E7%B1%BB"><span class="toc-number">3.</span> <span class="toc-text">分类</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%9D%9E%E6%AD%A3%E5%BC%8F%E7%89%88"><span class="toc-number">3.1.</span> <span class="toc-text">非正式版</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%AD%A3%E5%BC%8F%E7%89%88"><span class="toc-number">3.2.</span> <span class="toc-text">正式版</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%93%E6%9C%89%E7%89%88%E6%9C%AC"><span class="toc-number">3.3.</span> <span class="toc-text">专有版本</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%85%B6%E4%BB%96%E7%89%88%E6%9C%AC"><span class="toc-number">3.4.</span> <span class="toc-text">其他版本</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%BC%95%E7%94%A8"><span class="toc-number">3.4.1.</span> <span class="toc-text">引用</span></a></li></ol></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/posts/ced3dee7.html" title="一言生成器">一言生成器</a><time datetime="2023-07-27T11:59:07.524Z" title="发表于 2023-07-27 11:59:07">2023-07-27</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/posts/78e8aec1.html" title="保姆级Hexo教程3-主题配置">保姆级Hexo教程3-主题配置</a><time datetime="2023-06-18T12:22:27.666Z" title="发表于 2023-06-18 12:22:27">2023-06-18</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/posts/d8f7872c.html" title="保姆级Hexo教程2-主题安装">保姆级Hexo教程2-主题安装</a><time datetime="2023-06-03T11:47:30.583Z" title="发表于 2023-06-03 11:47:30">2023-06-03</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/posts/3fe50ae2.html" title="保姆级Hexo教程1-安装">保姆级Hexo教程1-安装</a><time datetime="2023-05-27T08:18:30.000Z" title="发表于 2023-05-27 08:18:30">2023-05-27</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/posts/a72cf7a1.html" title="终于可以在线写文章了！！！">终于可以在线写文章了！！！</a><time datetime="2023-05-14T20:17:22.000Z" title="发表于 2023-05-14 20:17:22">2023-05-14</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2022 - 2023 By haloged</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text"><a href="https://icp.gov.moe/?keyword=20238910" target="_blank">萌ICP备20238910号</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://unpkg.com/@fancyapps/ui/dist/fancybox/fancybox.umd.js"></script><script src="https://unpkg.com/node-snackbar/dist/snackbar.min.js"></script><div class="js-pjax"><script>function loadWaline () {
+  function initWaline () {
+    const waline = Waline.init(Object.assign({
+      el: '#waline-wrap',
+      serverURL: 'pl.haloged.eu.org',
+      pageview: false,
+      dark: 'html[data-theme="dark"]',
+      path: window.location.pathname,
+      comment: false,
+    }, null))
+  }
+
+  if (typeof Waline === 'object') initWaline()
+  else {
+    getCSS('https://unpkg.com/@waline/client/dist/waline.css').then(() => {
+      getScript('https://unpkg.com/@waline/client/dist/waline.js').then(initWaline)
+    })
+  }
+}
+
+if ('Waline' === 'Waline' || !false) {
+  if (false) btf.loadComment(document.getElementById('waline-wrap'),loadWaline)
+  else setTimeout(loadWaline, 0)
+} else {
+  function loadOtherComment () {
+    loadWaline()
+  }
+}</script></div><canvas class="fireworks" mobile="false"></canvas><script src="https://unpkg.com/butterfly-extsrc/dist/fireworks.min.js"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div class="no-result" id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/js/search/local-search.js"></script></div></div></body></html>

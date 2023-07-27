@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>haloged的博客</title>
+  <icon>https://haloged.eu.org/icon.png</icon>
+  
+  <link href="https://haloged.eu.org/atom.xml" rel="self"/>
+  
+  <link href="https://haloged.eu.org/"/>
+  <updated>2023-07-27T12:24:28.440Z</updated>
+  <id>https://haloged.eu.org/</id>
+  
+  <author>
+    <name>haloged</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>一言生成器</title>
+    <link href="https://haloged.eu.org/posts/ced3dee7.html"/>
+    <id>https://haloged.eu.org/posts/ced3dee7.html</id>
+    <published>2023-07-27T11:59:07.524Z</published>
+    <updated>2023-07-27T12:24:28.440Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;您还在为找不到好的句子而发愁吗？一言生成器可以满足您的愿望。内置3个API接口，好句子充足。如果您对3个API里的句子还不满意，还有ChatGPT供您选择。&lt;/p&gt;
+&lt;h1 id=&quot;安装教程&quot;&gt;&lt;a href=&quot;#安装教程&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="编程" scheme="https://haloged.eu.org/categories/%E7%BC%96%E7%A8%8B/"/>
+    
+    <category term="Python" scheme="https://haloged.eu.org/categories/Python/"/>
+    
+    
+    <category term="Python" scheme="https://haloged.eu.org/tags/Python/"/>
+    
+    <category term="一言" scheme="https://haloged.eu.org/tags/%E4%B8%80%E8%A8%80/"/>
+    
+    <category term="一言生成器" scheme="https://haloged.eu.org/tags/%E4%B8%80%E8%A8%80%E7%94%9F%E6%88%90%E5%99%A8/"/>
+    
+    <category term="API" scheme="https://haloged.eu.org/tags/API/"/>
+    
+    <category term="Github" scheme="https://haloged.eu.org/tags/Github/"/>
+    
+    <category term="hitokoto" scheme="https://haloged.eu.org/tags/hitokoto/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>保姆级Hexo教程3-主题配置</title>
+    <link href="https://haloged.eu.org/posts/78e8aec1.html"/>
+    <id>https://haloged.eu.org/posts/78e8aec1.html</id>
+    <published>2023-06-18T12:22:27.666Z</published>
+    <updated>2023-07-27T12:24:28.440Z</updated>
+    
+    
+    <summary type="html">好久没有更新文章了，今天来填一下坑</summary>
+    
+    
+    
+    <category term="编程" scheme="https://haloged.eu.org/categories/%E7%BC%96%E7%A8%8B/"/>
+    
+    <category term="Hexo" scheme="https://haloged.eu.org/categories/Hexo/"/>
+    
+    
+    <category term="Hexo" scheme="https://haloged.eu.org/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>保姆级Hexo教程2-主题安装</title>
+    <link href="https://haloged.eu.org/posts/d8f7872c.html"/>
+    <id>https://haloged.eu.org/posts/d8f7872c.html</id>
+    <published>2023-06-03T11:47:30.583Z</published>
+    <updated>2023-07-27T12:24:28.440Z</updated>
+    
+    
+    <summary type="html">本教程基于Butterfly4.8.5制作，如后期版本更新导致教程失效，请在评论区与我联系 </summary>
+    
+    
+    
+    <category term="编程" scheme="https://haloged.eu.org/categories/%E7%BC%96%E7%A8%8B/"/>
+    
+    <category term="Hexo" scheme="https://haloged.eu.org/categories/Hexo/"/>
+    
+    
+    <category term="Hexo" scheme="https://haloged.eu.org/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>保姆级Hexo教程1-安装</title>
+    <link href="https://haloged.eu.org/posts/3fe50ae2.html"/>
+    <id>https://haloged.eu.org/posts/3fe50ae2.html</id>
+    <published>2023-05-27T08:18:30.000Z</published>
+    <updated>2023-07-27T12:24:28.440Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用</summary>
+        
+      
+    
+    
+    
+    <category term="编程" scheme="https://haloged.eu.org/categories/%E7%BC%96%E7%A8%8B/"/>
+    
+    <category term="Hexo" scheme="https://haloged.eu.org/categories/Hexo/"/>
+    
+    
+    <category term="Hexo" scheme="https://haloged.eu.org/tags/Hexo/"/>
+    
+    <category term="Git" scheme="https://haloged.eu.org/tags/Git/"/>
+    
+    <category term="Node.js" scheme="https://haloged.eu.org/tags/Node-js/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>终于可以在线写文章了！！！</title>
+    <link href="https://haloged.eu.org/posts/a72cf7a1.html"/>
+    <id>https://haloged.eu.org/posts/a72cf7a1.html</id>
+    <published>2023-05-14T20:17:22.000Z</published>
+    <updated>2023-07-27T12:24:28.440Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;最近装了折腾了一下Hexo在线写文章，有两种方法，但是我用第一种有点问题，挺曲折的，所以写篇文章纪念一下&lt;/p&gt;
+&lt;h2 id=&quot;hexo-admin&quot;&gt;&lt;a href=&quot;#hexo-admin&quot; class=&quot;headerlink&quot; title=&quot;hexo</summary>
+        
+      
+    
+    
+    
+    <category term="编程" scheme="https://haloged.eu.org/categories/%E7%BC%96%E7%A8%8B/"/>
+    
+    
+    <category term="Hexo" scheme="https://haloged.eu.org/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>HTML教程</title>
+    <link href="https://haloged.eu.org/posts/d9c0a3d4.html"/>
+    <id>https://haloged.eu.org/posts/d9c0a3d4.html</id>
+    <published>2023-02-17T11:40:00.000Z</published>
+    <updated>2023-07-27T12:24:28.440Z</updated>
+    
+    
+    <summary type="html">HTML 教程- (HTML5 标准) 超文本标记语言（英语：HyperText Markup Language，简称：HTML）是一种用于创建网页的标准标记语言。您可以使用 HTML 来建立自己的 WEB 站点，HTML 运行在浏览器上，由浏览器来解析。在本教程中，您将学习如何使用 HTML 来创建站点。HTML 很容易学习！相信您能很快学会它！ HTML 实例 本教程包含了数百个 HTML 实...</summary>
+    
+    
+    
+    <category term="编程" scheme="https://haloged.eu.org/categories/%E7%BC%96%E7%A8%8B/"/>
+    
+    
+    <category term="HTML" scheme="https://haloged.eu.org/tags/HTML/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>快速实现飞书客户端网页应用鉴权</title>
+    <link href="https://haloged.eu.org/posts/cde05bbf.html"/>
+    <id>https://haloged.eu.org/posts/cde05bbf.html</id>
+    <published>2023-02-03T23:08:18.000Z</published>
+    <updated>2023-07-27T12:24:28.440Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;1-功能介绍&quot;&gt;&lt;a href=&quot;#1-功能介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 功能介绍&quot;&gt;&lt;/a&gt;1. 功能介绍&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;【鉴权】如果您需要调用</summary>
+        
+      
+    
+    
+    
+    
+    <category term="杂乱" scheme="https://haloged.eu.org/tags/%E6%9D%82%E4%B9%B1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>体验ChatGPT</title>
+    <link href="https://haloged.eu.org/posts/72a7a47.html"/>
+    <id>https://haloged.eu.org/posts/72a7a47.html</id>
+    <published>2023-02-03T14:52:03.000Z</published>
+    <updated>2023-07-27T12:24:28.440Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;在B站上，有很多体验ChatGPT的视频，还有很多QQ群友也在群里展示他们调戏ChatGPT的图片。我也很想体验这个。但是万万没想到，折腾了这么久，最后还是用一个最简单的办法实现的。所以我就想写个文档纪念一下。&lt;/p&gt;
+&lt;h2</summary>
+        
+      
+    
+    
+    
+    
+    <category term="体验" scheme="https://haloged.eu.org/tags/%E4%BD%93%E9%AA%8C/"/>
+    
+    <category term="ChatGPT" scheme="https://haloged.eu.org/tags/ChatGPT/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>哔哩哔哩宣布与B站终止合作是怎么回事？不懂会闹大笑话！</title>
+    <link href="https://haloged.eu.org/posts/33d44a23.html"/>
+    <id>https://haloged.eu.org/posts/33d44a23.html</id>
+    <published>2023-01-26T15:16:54.000Z</published>
+    <updated>2023-07-27T12:24:28.440Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;哔哩哔哩宣布与B站终止合作是怎么一回事？哔哩哔哩宣布与B站终止合作是什么梗？哔哩哔哩宣布与B站终止合作最近为什么这么火呢？&amp;lt;/br&amp;gt;众所周知，哔哩哔哩宣布与B站终止合作是最近非常火的一个词。那么哔哩哔哩宣布与B站终止合作到底是什么梗呢？相信大家对哔哩哔哩宣布与B</summary>
+        
+      
+    
+    
+    
+    
+    <category term="营销号文案" scheme="https://haloged.eu.org/tags/%E8%90%A5%E9%94%80%E5%8F%B7%E6%96%87%E6%A1%88/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>python学生管理系统(pyqt5 含界面)</title>
+    <link href="https://haloged.eu.org/posts/6c03698e.html"/>
+    <id>https://haloged.eu.org/posts/6c03698e.html</id>
+    <published>2023-01-24T15:07:52.000Z</published>
+    <updated>2023-07-27T12:24:28.440Z</updated>
+    
+    
+    <summary type="html">学生管理系统项目流程 项目模块 账号登陆 人脸识别 增添学生信息 删除学生信息 改动学生信息 查询学生信息 项目主体框架   app.py为主代码，负责用于界面打开展示。 img文件夹负责放置项目qrc的图像 page文件夹为单独页面的类 plugin文件夹为功能模块的类 ui文件夹为存放页面的ui文件和pyuic5导出的py文件  项目设计知识：  PyQt5 Mysql 线程与进程 docke...</summary>
+    
+    
+    
+    <category term="编程" scheme="https://haloged.eu.org/categories/%E7%BC%96%E7%A8%8B/"/>
+    
+    
+    <category term="Python" scheme="https://haloged.eu.org/tags/Python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>提交信息规范</title>
+    <link href="https://haloged.eu.org/posts/f190a193.html"/>
+    <id>https://haloged.eu.org/posts/f190a193.html</id>
+    <published>2023-01-23T15:25:02.000Z</published>
+    <updated>2023-07-27T12:24:28.440Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;提交类型&quot;&gt;&lt;a href=&quot;#提交类型&quot; class=&quot;headerlink&quot; title=&quot;提交类型&quot;&gt;&lt;/a&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="编程" scheme="https://haloged.eu.org/categories/%E7%BC%96%E7%A8%8B/"/>
+    
+    
+    <category term="编程小知识" scheme="https://haloged.eu.org/tags/%E7%BC%96%E7%A8%8B%E5%B0%8F%E7%9F%A5%E8%AF%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>网页跳转大师解决方案</title>
+    <link href="https://haloged.eu.org/posts/f35e1f9c.html"/>
+    <id>https://haloged.eu.org/posts/f35e1f9c.html</id>
+    <published>2023-01-23T13:46:47.000Z</published>
+    <updated>2023-07-27T12:24:28.440Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;开源文件&quot;&gt;&lt;a href=&quot;#开源文件&quot; class=&quot;headerlink&quot; title=&quot;开源文件&quot;&gt;&lt;/a&gt;开源文件&lt;/h2&gt;&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="编程" scheme="https://haloged.eu.org/categories/%E7%BC%96%E7%A8%8B/"/>
+    
+    
+    <category term="Codemao" scheme="https://haloged.eu.org/tags/Codemao/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>网页跳转大师</title>
+    <link href="https://haloged.eu.org/posts/3b321daf.html"/>
+    <id>https://haloged.eu.org/posts/3b321daf.html</id>
+    <published>2023-01-23T13:43:07.000Z</published>
+    <updated>2023-07-27T12:24:28.440Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;你是否还在为作品无法跳转链接尔烦恼呢？来试试网页跳转大师吧！他能解决一切烦恼。&lt;br /&gt;&lt;img src=&quot;https://s1.vika.cn/space/2023/01/23/ab9f4a481cfa45169fdae918923dddfd&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="编程" scheme="https://haloged.eu.org/categories/%E7%BC%96%E7%A8%8B/"/>
+    
+    
+    <category term="Codemao" scheme="https://haloged.eu.org/tags/Codemao/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>系统下载器</title>
+    <link href="https://haloged.eu.org/posts/e655e845.html"/>
+    <id>https://haloged.eu.org/posts/e655e845.html</id>
+    <published>2023-01-23T13:36:49.000Z</published>
+    <updated>2023-07-27T12:24:28.440Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;你还在为下载不到纯净的系统而感到烦恼吗？系统下载器能帮你解决一切问题。&lt;br /&gt;&lt;img src=&quot;https://s1.vika.cn/space/2023/01/23/a09dcbfff31c42f1b88aa45fb2b5e7c2&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="编程" scheme="https://haloged.eu.org/categories/%E7%BC%96%E7%A8%8B/"/>
+    
+    
+    <category term="Codemao" scheme="https://haloged.eu.org/tags/Codemao/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CoCo安全卫士</title>
+    <link href="https://haloged.eu.org/posts/6161a01b.html"/>
+    <id>https://haloged.eu.org/posts/6161a01b.html</id>
+    <published>2023-01-23T13:24:54.000Z</published>
+    <updated>2023-07-27T12:24:28.440Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;一个鸽了很久的作品，其实实际上没卵用。&lt;br /&gt;&lt;img src=&quot;https://s1.vika.cn/space/2023/01/23/9ac14bca197048b0b54c3992739e1297&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="编程" scheme="https://haloged.eu.org/categories/%E7%BC%96%E7%A8%8B/"/>
+    
+    
+    <category term="Codemao" scheme="https://haloged.eu.org/tags/Codemao/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>版本号规范</title>
+    <link href="https://haloged.eu.org/posts/51d32d85.html"/>
+    <id>https://haloged.eu.org/posts/51d32d85.html</id>
+    <published>2023-01-23T13:13:21.000Z</published>
+    <updated>2023-07-27T12:24:28.440Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;版本号&quot;&gt;&lt;a href=&quot;#版本号&quot; class=&quot;headerlink&quot; title=&quot;版本号&quot;&gt;&lt;/a&gt;版本号&lt;/h2&gt;&lt;p&gt;&lt;code&gt;a.b.c_d-e&lt;/code&gt;&lt;br /&gt;&lt;code&gt;a&lt;/code&gt;: 主版本号 出现大体不兼容或修改的 或</summary>
+        
+      
+    
+    
+    
+    <category term="编程" scheme="https://haloged.eu.org/categories/%E7%BC%96%E7%A8%8B/"/>
+    
+    
+    <category term="编程小知识" scheme="https://haloged.eu.org/tags/%E7%BC%96%E7%A8%8B%E5%B0%8F%E7%9F%A5%E8%AF%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>学生信息管理系统</title>
+    <link href="https://haloged.eu.org/posts/36af3259.html"/>
+    <id>https://haloged.eu.org/posts/36af3259.html</id>
+    <published>2023-01-23T12:43:23.000Z</published>
+    <updated>2023-07-27T12:24:28.440Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;最近在学python，用了几天跟着网上的视频学完基础知识之后，做了一个学生管理系统，写的比较普通，没太大亮点，希望可以给初学者一些参考经验，另外，如有不恰当的地方还请各位指正。&lt;br</summary>
+        
+      
+    
+    
+    
+    <category term="编程" scheme="https://haloged.eu.org/categories/%E7%BC%96%E7%A8%8B/"/>
+    
+    
+    <category term="Python" scheme="https://haloged.eu.org/tags/Python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>学生报到管理</title>
+    <link href="https://haloged.eu.org/posts/49609453.html"/>
+    <id>https://haloged.eu.org/posts/49609453.html</id>
+    <published>2023-01-23T12:42:57.000Z</published>
+    <updated>2023-07-27T12:24:28.440Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;学生报到管理，由haloged制作。&lt;/p&gt;
+&lt;figure class=&quot;highlight python&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span</summary>
+        
+      
+    
+    
+    
+    <category term="编程" scheme="https://haloged.eu.org/categories/%E7%BC%96%E7%A8%8B/"/>
+    
+    
+    <category term="Python" scheme="https://haloged.eu.org/tags/Python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>爬取网页源代码</title>
+    <link href="https://haloged.eu.org/posts/6bc7efd8.html"/>
+    <id>https://haloged.eu.org/posts/6bc7efd8.html</id>
+    <published>2023-01-23T12:37:20.000Z</published>
+    <updated>2023-07-27T12:24:28.440Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;爬取网页源代码，由haloged制作&lt;/p&gt;
+&lt;figure class=&quot;highlight python&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span</summary>
+        
+      
+    
+    
+    
+    <category term="编程" scheme="https://haloged.eu.org/categories/%E7%BC%96%E7%A8%8B/"/>
+    
+    
+    <category term="Python" scheme="https://haloged.eu.org/tags/Python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>利率计算器</title>
+    <link href="https://haloged.eu.org/posts/3d96aee9.html"/>
+    <id>https://haloged.eu.org/posts/3d96aee9.html</id>
+    <published>2023-01-23T12:36:55.000Z</published>
+    <updated>2023-07-27T12:24:28.440Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;利率计算器，由haloged出品。&lt;/p&gt;
+&lt;figure class=&quot;highlight python&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span</summary>
+        
+      
+    
+    
+    
+    <category term="编程" scheme="https://haloged.eu.org/categories/%E7%BC%96%E7%A8%8B/"/>
+    
+    
+    <category term="Python" scheme="https://haloged.eu.org/tags/Python/"/>
+    
+  </entry>
+  
+</feed>
